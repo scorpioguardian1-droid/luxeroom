@@ -1,9 +1,9 @@
 
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import Layout from './Layout';
-import { Button } from './ui/button';
-import { toast } from './ui/sonner';
+import Layout from '../components/Layout';
+import { Button } from '../components/ui/button';
+import { toast } from 'sonner';
 
 const RoomDetail = () => {
   const { id } = useParams();
