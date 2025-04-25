@@ -1,13 +1,24 @@
-// Update this page (the content is just a fallback if you fail to update the page)
 
-const Index = () => {
+import React from 'react';
+import Layout from '../components/Layout';
+
+const Index: React.FC = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <Layout>
+      <div className="grid grid-2">
+        <div>
+          <h1>Welcome to Your App</h1>
+          <p>This is a simple, clean React application using TypeScript and CSS.</p>
+        </div>
+        <div>
+          <img 
+            src="/placeholder.svg" 
+            alt="App illustration" 
+            style={{ maxWidth: '100%', height: 'auto' }} 
+          />
+        </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 
