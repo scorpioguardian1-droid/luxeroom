@@ -4,6 +4,8 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import RoomList from "./pages/RoomList";
 import RoomDetail from "./pages/RoomDetail";
+import AboutUs from "./pages/AboutUs";
+import Services from "./pages/Services";
 import { Toaster } from "./components/ui/sonner";
 
 const App = () => (
@@ -13,6 +15,8 @@ const App = () => (
       <Route path="/" element={<Index />} />
       <Route path="/rooms" element={<RoomList />} />
       <Route path="/rooms/:id" element={<RoomDetail />} />
+      <Route path="/about-us" element={<AboutUs />} />
+      <Route path="/services" element={<Services />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   </BrowserRouter>
