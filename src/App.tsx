@@ -1,4 +1,3 @@
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
@@ -6,7 +5,7 @@ import RoomList from "./pages/RoomList";
 import RoomDetail from "./pages/RoomDetail";
 import AboutUs from "./pages/AboutUs";
 import Services from "./pages/Services";
-import { Toaster } from "./components/ui/sonner";
+import { Toaster } from "react-hot-toast"; // optional replacement
 
 const App = () => (
   <BrowserRouter>
