@@ -11,7 +11,7 @@ const MOCK_ROOMS = [
     title: "Cozy Studio Apartment",
     description: "Modern studio apartment with full kitchen, high-speed WiFi, and a comfortable workspace. Perfect for digital nomads and young professionals.",
     price: 800,
-    image: "/placeholder.svg",
+    image: "/images/room1.jpg",
     amenities: ["WiFi", "Kitchen", "Workspace"]
   },
   {
@@ -19,7 +19,7 @@ const MOCK_ROOMS = [
     title: "Luxury Two Bedroom",
     description: "Spacious two-bedroom apartment with modern amenities, including a balcony with city views, in-unit laundry, and parking space.",
     price: 1200,
-    image: "/placeholder.svg",
+    image: "/images/room2.jpg",
     amenities: ["Balcony", "Parking", "Laundry"]
   },
   {
@@ -27,7 +27,7 @@ const MOCK_ROOMS = [
     title: "Garden View Suite",
     description: "Peaceful one-bedroom suite overlooking a private garden. Features include a fully equipped kitchen and outdoor seating area.",
     price: 950,
-    image: "/placeholder.svg",
+    image: "/images/room3.jpg",
     amenities: ["Garden", "Kitchen", "Patio"]
   },
   {
@@ -35,7 +35,7 @@ const MOCK_ROOMS = [
     title: "Downtown Loft",
     description: "Industrial-style loft in the heart of downtown. High ceilings, exposed brick, and modern furnishings make this space unique.",
     price: 1100,
-    image: "/placeholder.svg",
+    image: "/images/room4.jpg",
     amenities: ["High Ceilings", "Central Location", "Modern Design"]
   }
 ];
