@@ -43,7 +43,7 @@ const Index: React.FC = () => {
           </div>
           <div>
             <img 
-              src="https://images.unsplash.com/photo-1483058712412-4245e9b90334" 
+              src="/images/room.jpg" 
               alt="Modern living space" 
               className="rounded-lg shadow-lg w-full h-[400px] object-cover" 
             />
